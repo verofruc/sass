@@ -1,0 +1,10 @@
+.boton-productos{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.boton-prueba {
+@extend .boton-productos; }

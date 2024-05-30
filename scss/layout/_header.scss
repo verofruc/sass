@@ -1,0 +1,29 @@
+$fuente: "arial";
+$color: red;
+
+header {
+    background-color:white;
+    padding: auto;
+
+    nav {
+        ul {
+        display: flex;
+        margin: auto;
+        list-style: none;
+        text-align: center;
+        justify-content: space-evenly;
+        font-family: $fuente;
+
+        li {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 10px;
+
+        a {
+        text-decoration: none;
+        color: $color;
+        }
+    }
+}
+}
+}

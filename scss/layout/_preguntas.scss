@@ -1,0 +1,13 @@
+@mixin propiedades-preguntas{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    color:red;
+}
+
+.preguntas{
+    h2{
+        @include propiedades-preguntas();    
+    }
+}
+

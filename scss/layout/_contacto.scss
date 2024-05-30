@@ -1,0 +1,32 @@
+.contacto{
+    display:flex;
+    display:block;
+    justify-content:start;
+}
+
+.contacto2{
+    display:flex;
+    justify-content: center;
+}
+
+.contacto3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto4 {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.contacto4 label, .contacto4 input, .contacto4 textarea, .contacto4 button{
+    width: 100%;
+    margin-bottom: 10px;
+
+}

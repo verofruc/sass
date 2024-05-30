@@ -1,0 +1,88 @@
+.contacto {
+  display: flex;
+  display: block;
+  justify-content: start;
+}
+
+.contacto2 {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto4 {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.contacto4 label, .contacto4 input, .contacto4 textarea, .contacto4 button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+header {
+  background-color: white;
+  padding: auto;
+}
+header nav ul {
+  display: flex;
+  margin: auto;
+  list-style: none;
+  text-align: center;
+  justify-content: space-evenly;
+  font-family: "arial";
+}
+header nav ul li {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+.foto-principal {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fuente {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.boton-productos, .boton-prueba {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.preguntas h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 20px;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
